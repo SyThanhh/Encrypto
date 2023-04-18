@@ -3,7 +3,8 @@ const btnSha = document.querySelector('.btn-SHA-1')
 const btnMd5 = document.querySelector('.btn-MD5')
 const textarea  = document.querySelector('textarea')
 const icon = document.querySelector('.icon')
-
+const body = document.querySelector('body')
+console.log(body)
 function handleSHA1 () {
     let value = input.value.trim()
     if(!value) {
