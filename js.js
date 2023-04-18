@@ -3,8 +3,7 @@ const btnSha = document.querySelector('.btn-SHA-1')
 const btnMd5 = document.querySelector('.btn-MD5')
 const textarea  = document.querySelector('textarea')
 const icon = document.querySelector('.icon')
-const body = document.querySelector('body')
-console.log(body)
+
 function handleSHA1 () {
     let value = input.value.trim()
     if(!value) {
@@ -24,10 +23,7 @@ function handleSHA1 () {
         message : message
     }
 
-    let content = `Type : ${text.type}
-    Hex : ${text.hash}
-    Bit : ${text.bit}
-    Message: ${text.message}`
+    let content = `Type : ${text.type}\nHex : ${text.hash}\nBit : ${text.bit}\nMessage: ${text.message}`
    
     textarea.innerHTML = content
 }   
@@ -51,11 +47,7 @@ function handleMD5 () {
         message : message
     }
     let p = document.createElement("p");
-    p = `Type : ${text.type}
-            Hex : ${text.hash}
-            Bit : ${text.bit}
-            Message: ${text.message}
-    `
+    p = `Type : ${text.type}\nHex : ${text.hash}\nBit : ${text.bit}\nMessage: ${text.message}`
     
     textarea.innerHTML = p
   
