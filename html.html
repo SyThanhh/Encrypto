@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header id="top-header">
+        <p class="header-title">Encryption</p>
+    </header>
+    <div class="content">
+        <div class="form">
+            <label for="input-field">Nhập :</label>
+            <input type="text" id="input-field" name="input-field" placeholder="Nhập...">
+            <i class="icon fa-solid fa-x"></i>
+            <div class="button">
+                <button type="submit" class="btn-SHA-1">SHA-1</button>
+                <button type="submit" class="btn-MD5">MD5</button>
+            </div>
+        </div>
+       
+    </div>
+    <div class="result">
+        <table class="table">
+            <tr>
+                <th class="th">Mã hóa : </th>
+            </tr>
+            <tr>
+                <td>
+                    <textarea cols="20" id="hash" name="hash" rows="5" style="width:100%" spellcheck="false">
+                    </textarea>
+                </td>
+            </tr>
+        </table>
+    </div>
+   
+
+   <footer id="bottom-footer">
+        <p>THE BEST WORDPRESS TRAVEL THEME</p>
+        <p>Subscribe to our Newsletter</p>
+   </footer>
+</body>
+
+<script src="./js.js"></script>
+</html>
