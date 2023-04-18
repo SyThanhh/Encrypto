@@ -12,7 +12,7 @@
 }
 body {
     font-family: 'Bellota', cursive;
-    background-image: url('file:///C:/Users/HP/OneDrive/SoucreHTML/Encrypto_code/src/pexels-photo-4284284.webp');
+    background-image: url('./src/pexels-photo-4284284.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

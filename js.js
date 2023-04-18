@@ -28,7 +28,7 @@ function handleSHA1 () {
     Bit : ${text.bit}
     Message: ${text.message}`
    
-    textarea.innerText = content
+    textarea.innerHTML = content
 }   
 function handleMD5 () {
     let value = input.value.trim()
@@ -56,7 +56,7 @@ function handleMD5 () {
             Message: ${text.message}
     `
     
-    textarea.innerText = p
+    textarea.innerHTML = p
   
 }
 btnSha.addEventListener('click', () => handleSHA1())
