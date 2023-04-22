@@ -76,9 +76,17 @@ input[type="text"] {
 
 .content .button {
     padding-top: 20px;
+    
+    
+}
+.content .button .color-shadow {
+    border-color: #9ecaed;
+    box-shadow: 0 0 8px #9ecaed;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px; */
 }
 .content .button .btn-SHA-1 {
     margin-right: 5px;
+   
 }
 .content .button .btn-SHA-1,
 .content .button .btn-MD5 {
@@ -90,6 +98,8 @@ input[type="text"] {
     border-radius: 4px;
     background-color: var(--bg-primary);
     transition: 0.2s;
+    
+    
 }
 .btn-SHA-1:hover {
     opacity: 0.8;

@@ -27,6 +27,8 @@ function handleSHA1 () {
    
     textarea.innerHTML = content
     textarea.classList.add('color-outline');
+    btnSha.classList.add('color-shadow')
+    btnMd5.classList.remove('color-shadow')
 }   
 function handleMD5 () {
     let value = input.value.trim()
@@ -52,6 +54,8 @@ function handleMD5 () {
     
     textarea.innerHTML = p
     textarea.classList.add('color-outline');
+    btnMd5.classList.add('color-shadow')
+    btnSha.classList.remove('color-shadow')
   
 }
 btnSha.addEventListener('click', () => handleSHA1())
@@ -60,4 +64,7 @@ btnMd5.addEventListener('click', () => handleMD5())
 icon.onclick = function () {
     input.value = ''
     textarea.innerHTML = "";
+    textarea.classList.remove('color-outline');
+    btnSha.classList.remove('color-shadow')
+    btnMd5.classList.remove('color-shadow')
 }
