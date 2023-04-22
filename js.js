@@ -26,7 +26,7 @@ function handleSHA1 () {
     let content = `Type : ${text.type}\nHex : ${text.hash}\nBit : ${text.bit}\nMessage: ${text.message}`
    
     textarea.innerHTML = content
-    textarea.style.outlineColor =  "#00fff3";
+    textarea.classList.add('color-outline');
 }   
 function handleMD5 () {
     let value = input.value.trim()
@@ -51,12 +51,13 @@ function handleMD5 () {
     p = `Type : ${text.type}\nHex : ${text.hash}\nBit : ${text.bit}\nMessage: ${text.message}`
     
     textarea.innerHTML = p
+    textarea.classList.add('color-outline');
   
 }
 btnSha.addEventListener('click', () => handleSHA1())
 
 btnMd5.addEventListener('click', () => handleMD5())
 icon.onclick = function () {
-
     input.value = ''
+    textarea.innerHTML = "";
 }

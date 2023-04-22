@@ -63,7 +63,7 @@ body {
 }
 input[type="text"] {
     border: 2px solid #ccc;
-    padding: 5px 20px 5px 5px;
+    padding: 5px;
     font-size: 16px;
     transition: 0.2s;
   }
@@ -109,7 +109,7 @@ input[type="text"] {
     width: 100%;
     height: 50px;
     font-size: 20px;
-    padding: 5px;
+    padding: 5px 20px 5px 5px;
     border-radius: 4px;
 }
 table tr {
@@ -136,7 +136,7 @@ table td {
     color: black;
     overflow: hidden;
     border-radius: 4px;
-    border: 2px solid #ccc !important;
+    border: 2px solid #ccc ;
 
 }
 .result table tr th {
@@ -151,7 +151,9 @@ table textarea:focus{
     outline-color: #00fff3;
  
 }
-
+.color-outline {
+    border: 2px solid #00fff3 !important;
+}
 #bottom-footer {
     display: flex;
     justify-content: space-between;
