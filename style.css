@@ -185,7 +185,7 @@ table textarea:focus{
 
 @media (max-width : 570px) {
     body {
-        height: 102vh;
+        height: 103vh;
     }
 
     .result table {
@@ -204,10 +204,10 @@ table textarea:focus{
     
 }
 
-@media (min-width : 530px) {
+@media (min-width : 570px) {
     #bottom-footer {
         position: relative;
-        bottom: -480px;
+        bottom: -532px;
         width: 100%;
     }
 }
