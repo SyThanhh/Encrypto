@@ -15,7 +15,9 @@ body {
     background-image: url('./src/pexels-photo-4284284.webp');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: right;
+    width: 100%;
+    height: 110vh;
 }
 
 #top-header {
@@ -179,4 +181,33 @@ table textarea:focus{
     color: white;
     font-size: 16px;
     font-weight: 300;
+}
+
+@media (max-width : 570px) {
+    body {
+        height: 102vh;
+    }
+
+    .result table {
+        width: 90%;
+    }
+    table textarea {
+        width: 100%;
+    }
+    .content {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .form {
+        width: 100%;
+    }
+    
+}
+
+@media (min-width : 530px) {
+    #bottom-footer {
+        position: relative;
+        bottom: -480px;
+        width: 100%;
+    }
 }
