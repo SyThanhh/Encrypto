@@ -166,6 +166,7 @@ table textarea:focus{
 .color-outline {
     border: 2px solid #00fff3 !important;
 }
+/*
 #bottom-footer {
     display: flex;
     justify-content: space-between;
@@ -182,7 +183,7 @@ table textarea:focus{
     font-size: 16px;
     font-weight: 300;
 }
-
+*/
 @media (max-width : 570px) {
     body {
         height: 103vh;
